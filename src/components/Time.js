@@ -25,7 +25,7 @@ export default function Time() {
       setCount(0)
     }
     else{
-      alert("Vérifier votre input ! ")
+      alert("Vérifier vos données d'entré ! ")
     }
     event.preventDefault();
   }

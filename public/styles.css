@@ -1,15 +1,26 @@
 body{
   background-color: black;
 }
+@font-face {
+  font-family: "SpaceTimeRegular";
+  src: url(./SpaceTimeRegular.ttf);
+}
+#Change{
+  font-family: "SpaceTimeRegular", sans-serif;
+}
+@font-face {
+  font-family: "Spacetime";
+  src: url(./Spacetime.ttf);
+}
 .clock{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Spaceime ";
   position: relative;
   text-align: center;
   color: green;
   font-size: clamp(4px, 20vw, 180px);
 }
 .form{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Spacetime";
   position: relative;
   text-align: center;
   color: green;
