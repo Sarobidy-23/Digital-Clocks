@@ -1,6 +1,6 @@
 # you can see a preview at : 
 ```
-[https://sarobidy-23.github.io/Digital-lock/](https://sarobidy-23.github.io/Digital-lock/)
+[https://sarobidy-23.github.io/Digital-lock/]
 ```
 
 
