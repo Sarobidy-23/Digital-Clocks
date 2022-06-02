@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './App.css';
-import Timeur from './components/Time';
+import Time from './components/Time';
 import Clock from './components/Clock';
 
 
@@ -8,7 +8,6 @@ function App() {
   const [alter, useAlter] = useState(true);
 
 const Change = (event) => {
-  event.preventDefault();
   useAlter(!alter);
 }
 
@@ -20,7 +19,7 @@ if(alter){
 }
 else{
   label = "Clock"
-  balise = <Timeur/>;
+  balise = <Time/>;
 }
    return (
    <>

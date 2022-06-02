@@ -29,7 +29,7 @@ body{
 
 input{
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-size: clamp(4px, 10vw, 30px);
+   font-size: clamp(3px, 8vw, 30px);
    text-align: center;
    max-width: 20%;
    margin: auto;
