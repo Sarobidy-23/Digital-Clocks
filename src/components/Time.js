@@ -25,7 +25,7 @@ export default function Time() {
   }
 
   const Start = (event) => {
-    if(isNaN(minutes + seconde + hour) !== true && hour<=86400 && minutes<=3540 && seconde<=59 && (hour+minutes+seconde)<=86400){
+    if(isNaN(minutes + seconde + hour) !== true && 0<=hour && hour<=86400 && 0<=minutes && minutes<=3540 && 0<=seconde && seconde<=59 && (hour+minutes+seconde)<=86400){
       setTimeur(minutes + seconde + hour);
       setCount(0)
     }
