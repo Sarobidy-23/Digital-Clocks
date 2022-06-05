@@ -1,9 +1,3 @@
-# you can see a preview at : 
-```
-https://sarobidy-23.github.io/Digital-lock/
-```
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

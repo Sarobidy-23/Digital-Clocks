@@ -30,7 +30,7 @@ export default function Time() {
       setCount(0)
     }
     else{
-      alert("Vérifier vos données d'entré ! ")
+      alert("Check your input ! ")
     }
   }
 
@@ -49,7 +49,7 @@ export default function Time() {
      
      if(time===0 && count===0){
       setCount(count => count+1);
-      alert("Temps écouler");}
+      alert("Time out !");}
      return () => clearInterval(timerId);
      
     });
@@ -58,11 +58,11 @@ export default function Time() {
   return (
     <>
       <div className='form'>
-        <input type="text" placeholder='hour' id="hour" onChange={hourValue}/>
+        <input type="number" placeholder='hour' id="hour" onChange={hourValue}/>
         <span className='separated'> : </span> 
-        <input type="text" placeholder='min' id="minutes" onChange={minutesValue}/> 
+        <input type="number" placeholder='min' id="minutes" onChange={minutesValue}/> 
         <span className='separated'> : </span> 
-        <input type="text" placeholder='sec' id="secondes" onChange={secondeValue}/> 
+        <input type="number" placeholder='sec' id="secondes" onChange={secondeValue}/> 
         <div id="result">{`${padStartDigit(Math.floor(time/3600))} : ${padStartDigit(Math.floor((time%3600)/60))} : ${padStartDigit(time%60)}`}</div>
         <div onClick={Start} id="Start">Start</div>
         <div onClick={Stop} id="Stop">Stop</div>
